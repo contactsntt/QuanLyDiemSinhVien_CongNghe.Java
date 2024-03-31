@@ -198,257 +198,294 @@ Hình 3.1: Sơ đồ phân dã chức năng(BFD)
 
 3.2.1.2 Biểu đồ dòng dữ liệu (DFD)
 
+<img src="">
+
 Hình 3.2 Biểu đồ mức ngữ cảnh
 
-	Biểu đồ mức 0 
+-	Biểu đồ mức 0 
+
+<img src="">
 
 Hình 3.3. Biểu đồ mức 0
 
-	1.   Yêu cầu sử dụng hệ thống	         15. Yêu cầu thống kê, tra cứu
-	2.   Truy vấn thông tin hệ thống	         16. Truy vấn TT danh mục
-	3.   Trả về thông tin hệ thống	         17. Trả về thông tin danh mục
-	4.   Xác nhận sử dụng hệ thống	         18. Truy vấn điểm
-	5.   Yêu cầu cập nhâp danh mục	         19. Trả về thông tin điểm
-	6.   Truy vấn thông tin danh mục        20. Kết quả thống kê, tra cứu
-	7.   Trả về thông tin danh mục	         21. Yêu cầu sử dụng hệ thống
-	8.   Danh mục được cập nhập	         22. Xác nhận sử dụng hệ thống
-	9.   Yêu cầu xử lý điểm	                   23. Yêu cầu tra cứu
-	10. Truy vấn thông tin danh mục       24. Kết quả tra cứu
-	11. Trả về thông tin danh mục	         25. Yêu cầu sử dụng hệ thống
-	12. Truy vấn thông tin điểm	         26. Xác nhận sử dụng hệ thống
-	13. Trả về thông tin điểm	                   27. Yêu cầu xử lí điểm
-	14. Kết quả xử lý điểm	                   28. Kết quả xử lí điểm
-	Biểu đồ mức 1
+1.   Yêu cầu sử dụng hệ thống	         15. Yêu cầu thống kê, tra cứu
+	
+2.   Truy vấn thông tin hệ thống	 16. Truy vấn TT danh mục
+	
+ 3.   Trả về thông tin hệ thống	         17. Trả về thông tin danh mục
+
+ 4.   Xác nhận sử dụng hệ thống	         18. Truy vấn điểm
+
+ 5.   Yêu cầu cập nhâp danh mục	         19. Trả về thông tin điểm
+
+ 6.   Truy vấn thông tin danh mục         20. Kết quả thống kê, tra cứu
+
+ 7.   Trả về thông tin danh mục	         21. Yêu cầu sử dụng hệ thống
+
+ 8.   Danh mục được cập nhập	         22. Xác nhận sử dụng hệ thống
+
+ 9.   Yêu cầu xử lý điểm	         23. Yêu cầu tra cứu
+
+ 10. Truy vấn thông tin danh mục          24. Kết quả tra cứu
+
+ 11. Trả về thông tin danh mục	         25. Yêu cầu sử dụng hệ thống
+	
+ 12. Truy vấn thông tin điểm	         26. Xác nhận sử dụng hệ thống
+
+ 13. Trả về thông tin điểm	         27. Yêu cầu xử lí điểm
+
+ 14. Kết quả xử lý điểm	                 28. Kết quả xử lí điểm
+
+-	Biểu đồ mức 1
+ <img src="">
  
 Hình 3.4 Biểu đồ mức 1: Quản lý hệ thống
+
 1.	Thông tin đăng nhập
+
 2.	Truy vấn thông tin User
+
 3.	Kết quả đăng nhập
+
 4.	Kết quả đăng nhập
+
 5.	Yêu cầu đăng xuất
+
 6.	Truy vấn thông tin User
+
 7.	Kết quả truy vấn thông tin User
+
 8.	Kết quả đăng xuất
+
+<img src="">
  
 Hình 3.5 Sơ đồ mức 1 cập nhật danh mục
+
 1. Yêu cầu cập nhập danh mục Khoa	14. Truy vấn thông tin Sinh viên
+
 2. Thông tin Khoa cần cập nhập	15. Kết quả truy vấn TT Sinh viên
+
 3. Kết quả cập nhập danh mục Khoa	16.  Danh mục SV đã cập nhập
+
 4. Danh mục Khoa đã cập nhập	17.  Yêu cầu cập nhập danh mục GV
+
 5. Yêu cầu cập nhập danh mục Lớp	18.  Truy vấn thông tin Khoa
+
 6. Truy vấn thông tin Khoa	19.  Kết quả truy vấn thông tin GV
+
 7. Kết quả truy vấn thông tin Khoa	20.  Thông tin GV cần cập nhập
+
 8. Thông tin Lớp cần cập nhập	21.  Kết quả cập nhập danh mục GV
+
 9. Kết quả cập nhập danh mục Lớp	22.  Danh mục GV đã cập nhật
+
 10. Danh mục Lớp đã cập nhập	23.  Yêu cầu cập nhập danh  mục môn học
+
 11. Y/cầu cập nhập danh mục SV	24. Truy vấn thông tin  môn  học
+
 12. Truy vấn thông tin Lớp	25. Kết quả truy vấn thông tin môn học
+
 13. Kết quả truy vấn thông tin Lớp	26. Kết quả cập nhập danh mục  môn học
+
+  <img src="">
+ 
   Hình 3.6  Sơ đồ mức 1: Xử lý điểm
+
 1.Thông tin điểm	11. Yêu cầu xác nhận điểm
+
 2. Thông tin môn học	12. Truy vấn thông tin môn học
+
 3. Kết quả truy vấn môn học	13. Kết quả truy vấn thông tin môn học
+
 4. Truy vấn thông tin giáo viên	14. Truy vấn thông tin giáo viên
+
 5. Kết quả truy vấn thông tin Sinh viên	15. Kết quả truy vấn thông tin giáo viên
+
 6.Truy vấn thông tin Sinh viên	16. Truy vấn thông tin sinh viên
+
 7. Kết quả truy vấn thông tin Sinh viên	17. Kết quả truy vấn thông tin sinh viên
+
 8. Cập nhập điểm	18. Truy vấn thông tin điểm
+
 9 .Kết quả cập nhập điểm	19. Kế quả truy vấn thông tin điểm
+
 10. Điểm đã cập nhập	24. Kết quả xác nhận điểm
 
+<img src="">
 
  Hình 3.7 Sơ đồ mức 1: Thống kê, tra cứu
+
 1 Yêu cầu thống kê	12. Kết quả thống kê
+
 2. Truy vấn thông tin Khoa	13. Yêu cầu tra cứu
+
 3. Thông tin Khoa	14. Truy vấn thông tin điểm
+
 4. Truy vấn thông tin điểm	15. Thông tin điểm
+
 5. Thông tin điểm	16. Truy vấn thông tin lớp
+
 6. Truy vấn thông tin lớp	17. Thông tin lớp
+
 7. Thông tin lớp	18. Truy vấn thông tin sinh viên
+
 8. Truy vấn thông tin sinh viên	19. Thông tin sinh viên
+
 9. Thông tin sinh viên	20. Truy vấn thông tin môn học
+
 10. Truy vấn thông tin môn học	21. Thông tin môn học
+
 11. Thông tin môn học	22. Kết quả tra cứu
 
 
-3.2.  CƠ SỞ DỮ LIỆU CỦA HỆ THỐNGĐể nắm được yêu cầu của bài toán, chúng ta cần hiểu dõ về cơ sở dữ liệu mà bài toán cần. Ở đây em xin đưa ra những thông tin mà phần mềm quản lý điểm cần có như sau:
+3.2.  CƠ SỞ DỮ LIỆU CỦA HỆ THỐNG
+
+Để nắm được yêu cầu của bài toán, chúng ta cần hiểu dõ về cơ sở dữ liệu mà bài toán cần. Ở đây đưa ra những thông tin mà phần mềm quản lý điểm cần có như sau:
+
 3.2.1 Bảng sinh viên:
+
+<img src="">
  
 3.2.2 Bảng Giảng Viên
+
+<img src="">
  
 3.2.3 Bảng điểm
+
+<img src="">
  
 3.2.4 Bảng Lớp
+
+<img src="">
  
 3.2.4 Bảng Khoa
  
-
+<img src="">
 
 3.2.5 Bảng Môn học
+
+<img src="">
  
 3.2.6 Bảng Đăng nhập
  
-
-
+<img src="">
 
 Sơ đồ liên kết
  
+<img src="">
 
 3.3.CÁC THÀNH PHẦN CHỨC NĂNG CỦA HỆ THỐNG
+
 3.3.1 Menu 
+
 Chứa các chức năng chính của chương trình.
+
 3.3.2. Chức năng đăng nhập hệ thống
+
 Đăng nhập tài khoản để xứ lý chương trình.
+
 3.3.3. Chức năng thông tin sinh viên
+
 Tìm kiểm, thêm sửa ,xóa, và hiển thị thông tin của sinh viên.
+
 3.3.4. Chức năng hiển thị  thông tin điểm của sinh viên.
+
 Hiển thị thêm,sửa.xóa các thông tin của sinh viên,ngày thi,số báo danh,đồng thời hiện tên môn học cùng điểm của môn học,xếp loại.
+
 3.3.5.Chức năng hiển thị  thông tin giảng viên.
+
 Hiển thị thông tin của giảng viên.
+
 Tìm kiểm,thêm,sửa xóa thông tin của giảng viên.
+
 3.3.6.Chức năng hiển thị thông tin  môn học.
+
 Tìm kiếm, thêm, sửa, xóa các môn học theo thông tin của các trường.
+
 Hiển thị,tìm kiếm thông tin của sinh viên,học kỳ,phòng học,số học trình.
+
 3.3.7.Chức năng hiển thị thông tin lớp học.
+
 Tìm kiếm,thêm,sửa xóa các trường thông tin lớp học.
+
 3.4 THIẾT KẾ GIAO DIỆN HỆ THỐNG
+
 Tiếp theo là phần thiết kế form cho chường trình sao cho hệ thống hoạt động có hiệu quả. Phần mềm phải hoạt động tốt, không trục trặc về thông tin, hạn chế sai sót trong các thao tác kỹ thuật.
+
 3.4.1 Form Đăng Nhập – Form chạy đầu tiên của phần mềm
+
+<img src="">
  
-
-
-Chức năng nút lệnh:
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Login	Đăng nhập vào hệ thống	Click
-Exit	Thoát ra khỏi hệ thống	Click
 3.4.2 Form giao diện chính của phần mềm
  
-
-
-
-
-
-
-
+<img src="">
 
 3.4.3 Form Sinh Viên
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Add	Nhập dữ liệu	Click
-Update	Cập nhật dữ liệu	Click
-Delete	Xóa dữ liệu	Click
-Exit	Thoát ra khỏi hệ thống	Click
-
-
-
-
-
+<img src="">
 
 3.4.4 Form Giáo Viên
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Add	Nhập dữ liệu	Click
-Update	Cập nhật dữ liệu	Click
-Delete	Xóa dữ liệu	Click
-Exit	Thoát ra khỏi hệ thống	Click
-
-
-
-
-
+<img src="">
 
 3.4.5 Form nhập điểm
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Add	Nhập dữ liệu	Click
-Update	Cập nhật dữ liệu	Click
-Delete	Xóa dữ liệu	Click
-Exit	Thoát ra khỏi hệ thống	Click
-
-
-
-
-
+<img src="">
 
 3.4.6 Form Lớp
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Add	Nhập dữ liệu	Click
-Update	Cập nhật dữ liệu	Click
-Delete	Xóa dữ liệu	Click
-Exit	Thoát ra khỏi hệ thống	Click
-
-
-
-
-
-
+<img src="">
 
 3.4.7 Form Khoa
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Add	Nhập dữ liệu	Click
-Update	Cập nhật dữ liệu	Click
-Delete	Xóa dữ liệu	Click
-Exit	Thoát ra khỏi hệ thống	Click
-
-
-
-
-
-
+<img src="">
 
 3.4.8 Form Môn Học
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Add	Nhập dữ liệu	Click
-Update	Cập nhật dữ liệu	Click
-Delete	Xóa dữ liệu	Click
-Exit	Thoát ra khỏi hệ thống	Click
-
-
-
-
-
+<img src="">
 
 3.4.8 Form Tìm Kiếm
  
-Chức năng nút lệnh
-Tên nút lệnh	Ý Nghĩa	Sự Kiện
-Search	Tìm kiếm dữ liệu	Click
-
-
-
-
-
-
-
+<img src="">v
 
 KẾT LUẬN
+
 4.1 KẾT LUẬN ĐỀ TÀI
+
 4.1.1 Đánh giá chung
+
 4.1.1.1 Ưu nhược điểm của hệ thống mới
-	Ưu điểm:
-	Rút ngắn được thời gian chờ đợi của sinh viên.
-	Sử dụng máy tính vào các công việc tìm kiếm các thông tin chi tiết về  điểm sinh viên sẽ dễ dàng nhanh chóng và thuận tiện. Việc lưu trữ sẽ đơn giản, không cần phải có nơi lưu trữ lớn, các thông tin về sinh viên sẽ chính xác và nhanh chóng.
-	Việc thống kê định kỳ từng kỳ, từng năm thuận tiện, nhanh chóng.
-	Với chức năng xử lư hệ thống mới sẽ rút ngắn công việc của nhân viên quản lý và giảm số lượng nhân viên quản lý, tránh tình trạng dư thừa.
-	Nhược điểm
-	Kinh phí để xây dựng một hệ thống quản lý thiết bị mới cho nhà trường bao gồm máy móc, phần mềm... rất tốn kém.
-	Do thời gian làm phần mềm và báo cáo chỉ gói gọn trong 1 tháng nên bài báo cáo này vẫn chưa được hoàn chỉnh, một số trường hợp khác trong quản lý điểm vẫn chưa có thể giải quyết hết.
+
+-	Ưu điểm:
+
++	Rút ngắn được thời gian chờ đợi của sinh viên.
+
++	Sử dụng máy tính vào các công việc tìm kiếm các thông tin chi tiết về  điểm sinh viên sẽ dễ dàng nhanh chóng và thuận tiện. Việc lưu trữ sẽ đơn giản, không cần phải có nơi lưu trữ lớn, các thông tin về 
+sinh viên sẽ chính xác và nhanh chóng.
+
++	Việc thống kê định kỳ từng kỳ, từng năm thuận tiện, nhanh chóng.
+
++	Với chức năng xử lư hệ thống mới sẽ rút ngắn công việc của nhân viên quản lý và giảm số lượng nhân viên quản lý, tránh tình trạng dư thừa.
+
+-	Nhược điểm
+
++	Kinh phí để xây dựng một hệ thống quản lý thiết bị mới cho nhà trường bao gồm máy móc, phần mềm... rất tốn kém.
+
++	Do thời gian làm phần mềm và báo cáo chỉ gói gọn trong 1 tháng nên bài báo cáo này vẫn chưa được hoàn chỉnh, một số trường hợp khác trong quản lý điểm vẫn chưa có thể giải quyết hết.
+
 4.1.2 Hướng phát triển và mở rộng đề tài
-Để phần mềm quản lý điểm góp phần quan trọng trong việc quản lý hệ thống điểm của trường học, giảm bớt sự cồng kềnh của sổ sách… thì việc mở rộng đề tài, xem xét nhiều khía cạnh hơn nữa để phần mềm được hoàn thiện hơn là rất cần thiết. Trong đề tài này em chỉ mới có phân tích và xây dựng phần mềm đơn giản chưa có tính phức tạp. Vì vậy, hướng phát triển của đề tài này là:
-	Các mối giằng buộc quan hệ giữa các table của cơ sở cần được chặt chẽ hơn.
-	Tích hợp thêm việc quản lý kết quả thi tuyển sinh đại học
-	Chuyển hướng quản lý thông tin sinh viên qua mạng.
-	Mở rộng thêm ứng dụng web: cho phép nhập và chỉnh sửa các thông tin từ xa.
-	Tiếp tục hoàn chỉnh các chức năng còn thiếu sót.
+
+Để phần mềm quản lý điểm góp phần quan trọng trong việc quản lý hệ thống điểm của trường học, giảm bớt sự cồng kềnh của sổ sách… thì việc mở rộng đề tài, xem xét nhiều khía cạnh hơn nữa để phần mềm được hoàn thiện hơn là rất cần thiết. Trong đề tài này chỉ mới có phân tích và xây dựng phần mềm đơn giản chưa có tính phức tạp. Vì vậy, hướng phát triển của đề tài này là:
+
++	Các mối giằng buộc quan hệ giữa các table của cơ sở cần được chặt chẽ hơn.
+
++	Tích hợp thêm việc quản lý kết quả thi tuyển sinh đại học
+
++	Chuyển hướng quản lý thông tin sinh viên qua mạng.
+
++	Mở rộng thêm ứng dụng web: cho phép nhập và chỉnh sửa các thông tin từ xa.
+
++	Tiếp tục hoàn chỉnh các chức năng còn thiếu sót.
 
 
 
